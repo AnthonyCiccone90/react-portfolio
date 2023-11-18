@@ -10,9 +10,7 @@ const AboutMe = () => {
       <h2>Anthony Ciccone </h2>
       <p>Short bio about the developer. Make sure to include a photo!</p>
 
-      <p>
-        <Link to="/portfolio">Go to Portfolio</Link>
-      </p>
+
 
       <Footer />
     </div>
