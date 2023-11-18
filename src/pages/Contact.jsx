@@ -65,26 +65,8 @@ const Contact = () => {
   return (
     <div>
       <Navigation /> {/* Include Navigation here */}
-      <h2>
+      <h2 class="page-title">
         Contact
-        <a href="tel:+19048609241">
-          <span className="emojis">📱</span>
-        </a>
-        <a href="mailto:cicconeworldwide@gmail.com">
-          <span className="emojis">📨</span>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/anthony-ciccone-9a0495178"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            id="LinkedInLogo"
-            className="emojis"
-            src={LinkedInLogo}
-            alt="Linkedin Logo"
-          />
-        </a>
       </h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name:</label>
@@ -130,7 +112,6 @@ const Contact = () => {
 
         <button type="submit">Submit</button>
       </form>
-      <p><Link to="/">Return to homepage</Link></p>
       <Footer />
     </div>
   );

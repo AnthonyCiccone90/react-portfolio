@@ -8,7 +8,7 @@ const AboutMe = () => {
     <div>
       <Navigation /> {/* Include Navigation here */}
       <h2>Anthony Ciccone </h2>
-      <p>Short bio about the developer. Make sure to include a photo!</p>
+      <p>Hello! My name is Anthony and I am a new web developer.</p>
 
 
 

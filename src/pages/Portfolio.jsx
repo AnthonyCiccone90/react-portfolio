@@ -13,7 +13,7 @@ const Portfolio = () => {
   return (
     <div className="container">
       <Navigation /> 
-      <h2>Highlighted Projects</h2>
+      <h2 class="page-title">Highlighted Projects</h2>
       <p>These are six of my highlighted projects. All images are clickable links that will bring you to the GitHub Repository to view the code.</p>
 
       <div className="row">
@@ -50,9 +50,6 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <p>
-        <Link to="/">Return to homepage</Link>
-      </p>
       <Footer />
     </div>
   );

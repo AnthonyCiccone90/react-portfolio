@@ -9,7 +9,7 @@ const Resume = () => {
   return (
     <div>
       <Navigation /> 
-      <h2 id="resume">
+      <h2 class="page-title">
         Resume coming soon. Please view my LinkedIn page to see my work
         experience prior to joining the tech industry
       </h2>
@@ -21,7 +21,6 @@ const Resume = () => {
       >
         <img id="LinkedInLogo" src={LinkedInLogo} alt="LinkedIn Logo" />
       </a>
-      <p><Link to="/">Return to homepage</Link></p>
       <Footer />
     </div>
   );
