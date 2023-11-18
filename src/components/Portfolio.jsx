@@ -1,18 +1,13 @@
-// Portfolio.jsx
-import React from "react";
+import React from 'react';
+import Navigation from './Navigation';
 
-const Portfolio = ({ title, description, imageUrl }) => {
+const PortfolioPage = () => {
   return (
     <div>
-      {/* Project image */}
-    
-
-      {/* Project details */}
-      <div>
-
-      </div>
+      {/* Your portfolio content goes here */}
+      <p>Portfolio content</p>
     </div>
   );
 };
 
-export default Portfolio;
+export default PortfolioPage;

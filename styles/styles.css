@@ -14,9 +14,8 @@
   margin: 0 10px;
 }
 
-
   html {
-    background-image: url('/images/background.jpeg');
+    background-image: linear-gradient(rgb(2, 187, 249), rgb(54, 6, 83));
     background-repeat: no-repeat;
     background-attachment: fixed;
   }

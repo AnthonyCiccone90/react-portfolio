@@ -3,10 +3,12 @@ import React from "react";
 import LinkedInLogo from "../../images/linkedin-logo.png";
 import { Link } from "react-router-dom";
 import Footer from '../components/Footer';
+import Navigation from "../components/Navigation";
 
 const Resume = () => {
   return (
     <div>
+      <Navigation /> 
       <h2 id="resume">
         Resume coming soon. Please view my LinkedIn page to see my work
         experience prior to joining the tech industry
