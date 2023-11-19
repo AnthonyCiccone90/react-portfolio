@@ -57,6 +57,14 @@ html {
   text-decoration: none;
 }
 
+#profile-pic {
+  width: 10%;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  border-radius: 100px;
+}
+
 .thumbnails {
   width: 100%;
   height: auto;

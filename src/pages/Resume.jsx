@@ -13,14 +13,26 @@ const Resume = () => {
         Resume coming soon. Please view my LinkedIn page to see my work
         experience prior to joining the tech industry
       </h2>
+      <p>Front-End Proficiencies:
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+          <li>React</li>
+        </ul>
+      </p>
+      <p>Back-End Proficiencies:
+      <ul>
+          <li>Node</li>
+          <li>Express</li>
+          <li>MySQL/Sequelize</li>
+          <li>MongoDB/Mongoose</li>
+          <li>APIs</li>
+          <li>Testing</li>
+        </ul>
+      </p>
 
-      <a
-        href="https://www.linkedin.com/in/anthony-ciccone-9a0495178"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img id="LinkedInLogo" src={LinkedInLogo} alt="LinkedIn Logo" />
-      </a>
       <Footer />
     </div>
   );
