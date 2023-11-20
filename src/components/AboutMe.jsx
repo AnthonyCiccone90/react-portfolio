@@ -8,9 +8,9 @@ const AboutMe = () => {
   return (
     <div>
       <Navigation />
-      <h2>Anthony Ciccone </h2>
+      <h2 class="page-titles">Anthony Ciccone </h2>
       <img src={profilePic} alt="profile picture" id="profile-pic"></img>
-      <p>
+      <p class="text" id="p-1">
         Hello! My name is Anthony and I am a full stack web developer.
         Constantly learning new skills has been the mantra of my life. Learning
         to code has given me a new prespective on how our world operates.
@@ -19,14 +19,14 @@ const AboutMe = () => {
         more. The seratonin rush I get when solving problems is unlike anything
         I've felt in the past.{" "}
       </p>
-      My skills and knowledge base go far beyond the coding environment. I have
+      <p class="text">My skills and knowledge base go far beyond the coding environment. I have
       had several other careers and hobbies that had given me a rich diversity
       of knowledge. Some of these other fields include hospitality (bartender
       and mixologist), music and music education (recording/touring artist and
       teacher) and finance (mortgage loan officer). This is not an exhaustive
       list of the things I have done. I would love the opprotunity to tell you
       more about myself. If you are interested or have any questions at all for
-      me please reach out. Thanks for visiting!
+      me please reach out. Thanks for visiting!</p>
       <Footer />
     </div>
   );

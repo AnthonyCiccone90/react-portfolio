@@ -65,7 +65,7 @@ const Contact = () => {
   return (
     <div>
       <Navigation /> {/* Include Navigation here */}
-      <h2 class="page-title">
+      <h2 class="page-titles">
         Contact
       </h2>
       <form onSubmit={handleSubmit}>

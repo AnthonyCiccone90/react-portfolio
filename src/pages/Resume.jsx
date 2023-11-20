@@ -9,12 +9,12 @@ const Resume = () => {
   return (
     <div>
       <Navigation /> 
-      <h2 class="page-title">
+      <h2 class="page-titles">
         Resume coming soon. Please view my LinkedIn page to see my work
         experience prior to joining the tech industry
       </h2>
-      <p>Front-End Proficiencies:
-        <ul>
+      <p class="text">Front-End Proficiencies:
+        <ul class="proficiencies">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
@@ -22,8 +22,8 @@ const Resume = () => {
           <li>React</li>
         </ul>
       </p>
-      <p>Back-End Proficiencies:
-      <ul>
+      <p class="text">Back-End Proficiencies:
+      <ul class="proficiencies">
           <li>Node</li>
           <li>Express</li>
           <li>MySQL/Sequelize</li>

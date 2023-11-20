@@ -1,6 +1,4 @@
-.page-title {
-  color: red;
-}
+
 
 #nav-items {
   background-color: green;
@@ -21,8 +19,15 @@
 #nav-items a {
   text-decoration: none;
   padding: 10px;
-  transition: box-shadow 0.3s ease; /* Add a smooth transition for the box-shadow */
-  text-decoration: none;
+  transition: box-shadow 0.3s ease; 
+}
+
+.page-titles {
+font-size: 40px;
+}
+
+#p-1 {
+  margin-bottom: 2%;
 }
 
 #nav-items a:visited {
@@ -65,6 +70,16 @@ html {
   border-radius: 100px;
 }
 
+.proficiencies {
+  list-style: none;
+  color: white;
+}
+
+.text {
+  color: white;
+  font-size: 22px;
+}
+
 .thumbnails {
   width: 100%;
   height: auto;
@@ -80,7 +95,7 @@ html {
 
 .titles {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica;
   font-size: 60px;
 }
 

@@ -41,8 +41,8 @@ const Portfolio = () => {
   return (
     <div className="container">
       <Navigation />
-      <h2 className="page-title">Highlighted Projects</h2>
-      <p>These are six of my highlighted projects. All images are clickable links that will bring you to the GitHub Repository to view the code.</p>
+      <h2 class="page-titles">Highlighted Projects</h2>
+      <p class="text">These are six of my highlighted projects. All images are clickable links that will bring you to the GitHub Repository to view the code.</p>
 
       <div className="row">
         <Project title="Knockoff Gatherer" class="titles" repoLink="https://github.com/JacobCampa/Knockoff-Gatherer-2.0" deployedLink="https://mtg-search-engine-9599f588e5fc.herokuapp.com/" image={MTG} />
