@@ -26,7 +26,7 @@ const Footer = () => {
         />
       </a>
 
-      <a href="tel:+19048609241" className="emoji-link">
+      <a href="sms:+19048609241" className="emoji-link">
         <span className="emojis">📱</span>
       </a>
       <a href="mailto:cicconeworldwide@gmail.com" className="emoji-link">
