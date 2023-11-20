@@ -10,11 +10,10 @@ const Resume = () => {
     <div>
       <Navigation /> 
       <h2 class="page-titles">
-        Resume coming soon. Please view my LinkedIn page to see my work
-        experience prior to joining the tech industry
+      Résumé
       </h2>
 
-      <p className="text">You can download my resume{" "}
+      <p className="text">You can download my résumé{" "}
         <a href="/images/Anthony Resume.doc" download>
           here
         </a>
