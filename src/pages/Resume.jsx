@@ -13,6 +13,16 @@ const Resume = () => {
         Resume coming soon. Please view my LinkedIn page to see my work
         experience prior to joining the tech industry
       </h2>
+
+      <p className="text">You can download my resume{" "}
+        <a href="/images/Anthony Resume.doc" download>
+          here
+        </a>
+        .
+      </p>
+
+
+
       <p class="text">Front-End Proficiencies:
         <ul class="proficiencies">
           <li>HTML</li>
