@@ -69,7 +69,7 @@ const Contact = () => {
         Contact
       </h2>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Name:</label>
+        <label id="contact-form" htmlFor="name">Name:</label>
         <input
           type="text"
           id="name"
@@ -83,7 +83,7 @@ const Contact = () => {
           <p className="error-message">Name is required</p>
         )}
 
-        <label htmlFor="email">Email:</label>
+        <label id="contact-form" htmlFor="email">Email:</label>
         <input
           type="email"
           id="email"
@@ -97,7 +97,7 @@ const Contact = () => {
           <p className="error-message">Invalid email address</p>
         )}
 
-        <label htmlFor="message">Message:</label>
+        <label id="contact-form" htmlFor="message">Message:</label>
         <textarea
           id="message"
           name="message"

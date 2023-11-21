@@ -99,6 +99,10 @@ html {
   font-size: 60px;
 }
 
+#contact-form {
+ display: block;
+}
+
 .links {
   text-align: center;
 }
