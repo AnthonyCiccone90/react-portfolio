@@ -24,7 +24,7 @@ app.post('/submit-form', (req, res) => {
   
   const mailOptions = {
     from: 'cicconeworldwide@gmail.com', 
-    to: formData.email, // Use the email provided by the user
+    to: email,
     subject: 'New Form Submission',
     text: `Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`,
   };
