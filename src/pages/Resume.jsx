@@ -1,4 +1,4 @@
-// Resume.jsx
+
 import React from "react";
 import LinkedInLogo from "../../images/linkedin-logo.png";
 import { Link } from "react-router-dom";
@@ -13,7 +13,7 @@ const Resume = () => {
 
       <p className="text">
         You can download my résumé{" "}
-        <a href="/images/Anthony_Resume.doc" download>
+        <a href="/images/Anthony_Resume.png" download>
           here
         </a>
         .
