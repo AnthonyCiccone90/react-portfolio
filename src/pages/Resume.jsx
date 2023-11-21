@@ -14,7 +14,7 @@ const Resume = () => {
       </h2>
 
       <p className="text">You can download my résumé{" "}
-        <a href="./images/Anthony_Resume.doc" download>
+        <a href="/images/Anthony_Resume.doc" download>
           here
         </a>
         .
