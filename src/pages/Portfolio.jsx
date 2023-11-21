@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Ecommerce from "../../images/ecommerce.jpeg";
-import Employees from "../../images/employees.png";
+import Employees from "../../images/Employees.png";
 import Logo from "../../images/logo.jpeg";
 import Quiz from "../../images/quiz.webp";
 import Readme from "../../images/readme.png";
