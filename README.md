@@ -9,6 +9,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 This is a portofoilo that tells the user about who I am and my skills. Currently, the user can view my highlighted projects, contact me on multiple platforms, view my resume and see an small except about myself. This is a project that will be updated periodcially to keep up with my curernt skill set and projects. Below is a screenshot of the "About Me" page that will be displayed upon visiting.![Alt text](<Screenshot 2023-11-20 at 14.05.09.png>)
 
 Link to deployed page:
+https://anthonyscodingportfolio.netlify.ap
 
 
 
