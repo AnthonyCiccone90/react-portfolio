@@ -2,27 +2,25 @@
 import React from "react";
 import LinkedInLogo from "../../images/linkedin-logo.png";
 import { Link } from "react-router-dom";
-import Footer from '../components/Footer';
+import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 
 const Resume = () => {
   return (
     <div>
-      <Navigation /> 
-      <h2 class="page-titles">
-      Résumé
-      </h2>
+      <Navigation />
+      <h2 class="page-titles">Résumé</h2>
 
-      <p className="text">You can download my résumé{" "}
+      <p className="text">
+        You can download my résumé{" "}
         <a href="/images/Anthony_Resume.doc" download>
           here
         </a>
         .
       </p>
 
-
-
-      <p class="text">Front-End Proficiencies:
+      <p class="text">
+        Front-End Proficiencies:
         <ul class="proficiencies">
           <li>HTML</li>
           <li>CSS</li>
@@ -31,8 +29,9 @@ const Resume = () => {
           <li>React</li>
         </ul>
       </p>
-      <p class="text">Back-End Proficiencies:
-      <ul class="proficiencies">
+      <p class="text">
+        Back-End Proficiencies:
+        <ul class="proficiencies">
           <li>Node</li>
           <li>Express</li>
           <li>MySQL/Sequelize</li>
