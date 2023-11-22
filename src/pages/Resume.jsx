@@ -13,7 +13,7 @@ const Resume = () => {
 
       <p className="text">
         You can download my résumé{" "}
-        <a href="/images/Anthony_Resume.png" download>
+        <a href="/images/Anthony_Resume.pdf" download>
           here
         </a>
         .
