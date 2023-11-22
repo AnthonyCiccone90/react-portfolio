@@ -4,7 +4,6 @@ import LinkedInLogo from "../../images/linkedin-logo.png";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
-import PDF from "../../images/Anthony_Resume.pdf"
 
 
 const Resume = () => {
@@ -16,7 +15,7 @@ const Resume = () => {
       <p className="text">
         You can download my résumé {" "}
         <a href="/images/Anthony_Resume.pdf" download>
-          here {PDF}
+          here
         </a>
         .
       </p>
