@@ -1,7 +1,5 @@
 
 import React from "react";
-import LinkedInLogo from "../../images/linkedin-logo.png";
-import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 
@@ -13,7 +11,7 @@ const Resume = () => {
       <h2 class="page-titles">Résumé</h2>
 
       <p className="text">
-        You can download my résumé {" "}
+        You can download my résumé{" "}
         <a href="/images/Anthony_Resume.pdf" download>
           here
         </a>
