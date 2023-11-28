@@ -2,7 +2,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
-import Resume from "../../images/Anthony_Resume.pdf"
+import {Resume} from "../../images/Anthony_Resume.pdf"
 
 
 const Resume = () => {
