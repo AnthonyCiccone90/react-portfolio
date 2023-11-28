@@ -15,6 +15,7 @@ const Resume = () => {
         <a href="/images/Anthony_Resume.pdf" download>
           here
         </a>
+        {''}
         .
       </p>
 
