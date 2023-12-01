@@ -10,6 +10,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  height: 33px;
 }
 
 #nav-items li {
@@ -24,7 +25,10 @@
 }
 
 .page-titles {
-font-size: 40px;
+  font-size: 40px;
+  margin: 0;
+  left: 0;
+  text-decoration: none;
 }
 
 #p-1 {
@@ -37,6 +41,10 @@ font-size: 40px;
 
 #nav-items a.active {
   color: orange;
+}
+
+#nav-items li {
+  font-size: 30px;
 }
 
 
