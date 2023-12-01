@@ -4,7 +4,7 @@ import AboutMe from './components/AboutMe';
 import PortfolioPage from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
-import CSS from '../styles/styles.css'
+import "../styles/styles.css?inline";
 
 
 const App = () => {

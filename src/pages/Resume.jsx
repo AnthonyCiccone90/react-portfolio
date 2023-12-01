@@ -1,9 +1,7 @@
-
 import React from "react";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
-import {Resume} from "../../images/Anthony_Resume.pdf"
-
+import  ResumeFile  from "../../images/Anthony_Resume.pdf";
 
 const Resume = () => {
   return (
@@ -13,11 +11,10 @@ const Resume = () => {
 
       <p className="text">
         You can download my résumé{" "}
-        <a href={Resume} download>
+        <a href={ResumeFile} download>
           here
         </a>
-        {''}
-        .
+        {""}.
       </p>
 
       <p class="text">
