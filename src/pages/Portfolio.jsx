@@ -6,7 +6,7 @@ import Employees from "../../images/Employees.png";
 import Logo from "../../images/logo.jpeg";
 import Quiz from "../../images/quiz.webp";
 import Readme from "../../images/readme.png";
-import MTG from "../../images/knockoff-gatherer2.0.png";
+import MTG from "../../images/Lore-Keeper's-Library.png"
 import Navigation from "../components/Navigation";
 
 const Project = ({ title, repoLink, deployedLink, image }) => {
@@ -45,7 +45,7 @@ const Portfolio = () => {
       <p class="text">These are six of my highlighted projects. All images are clickable links that will bring you to the GitHub Repository to view the code.</p>
 
       <div className="row">
-        <Project title="Knockoff Gatherer" class="titles" repoLink="https://github.com/JacobCampa/Knockoff-Gatherer-2.0" deployedLink="https://mtg-search-engine-9599f588e5fc.herokuapp.com/" image={MTG} />
+        <Project title="Lore Keeper's Library: A Magic the Gathering Card Search" class="titles" repoLink="https://github.com/mhannah3161/Magic-The-Gathering-Search" deployedLink="https://the-lorekeepers-library.onrender.com/" image={MTG} />
         <Project title="Ecommerce backend" class="titles" repoLink="https://github.com/AnthonyCiccone90/ecommerce-backend" deployedLink="https://drive.google.com/file/d/1j2Bn5AuWcuArkWzT23UhcYBFUxkJYiks/view" image={Ecommerce} />
         <Project title="Employee Content Management System" class="titles" repoLink="https://github.com/AnthonyCiccone90/employee_cms" deployedLink="https://drive.google.com/file/d/1bngbfbpQRfUur0G4UknP8OFGjoCUSU8L/view" image={Employees} />
         <Project title="Logo Creator" class="titles" repoLink="https://github.com/AnthonyCiccone90/logo-maker" deployedLink="https://drive.google.com/file/d/1nCZox-ecSC5MM4k2qze31N6Dkkg0QujG/view" image={Logo} />
