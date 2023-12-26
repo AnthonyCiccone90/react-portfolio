@@ -123,12 +123,13 @@ html {
 }
 
 /* Mobile view */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   #nav-items {
     flex-direction: row;
     background-color: transparent;
     margin-top: 0%;
     justify-content: center;
+    flex-wrap:wrap
     
   }
   
