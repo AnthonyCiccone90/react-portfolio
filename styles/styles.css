@@ -2,7 +2,6 @@
 
 #nav-items {
   background-color: blue;
-  position: fixed;
   top: 0;
   right: 0;
   display: flex;
@@ -123,12 +122,20 @@ html {
   text-align: center;
 }
 
-@media screen and (min-width: 768px) {
+/* Mobile view */
+@media screen and (max-width: 768px) {
   #nav-items {
     flex-direction: row;
-    position: static;
     background-color: transparent;
+    margin-top: 0%;
+    justify-content: center;
+    
   }
+  
+  .page-titles {
+    margin-top: 5%;
+    text-align: center;
+}
 
   .thumbnails {
     max-width: 50%;
