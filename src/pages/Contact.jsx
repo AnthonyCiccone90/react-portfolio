@@ -108,9 +108,9 @@ const Contact = () => {
         />
         {touchedFields.message && !formData.message.trim() && (
           <p className="error-message">Message is required</p>
-        )}
+        )}<br></br>
 
-        <button type="submit">Submit</button>
+        <button id="submitbtn" type="submit">Submit</button>
       </form>
       <Footer />
     </div>

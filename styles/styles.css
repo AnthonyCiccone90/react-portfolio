@@ -1,11 +1,12 @@
 
 
 #nav-items {
-  background-color: blue;
+  background-color: transparent;
   top: 0;
   right: 0;
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -72,9 +73,6 @@ html {
 
 #profile-pic {
   width: 10%;
-  /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
   border-radius: 100px;
 }
 
@@ -134,11 +132,27 @@ html {
   }
   
   .page-titles {
-    margin-top: 5%;
+    margin-top: 12%;
     text-align: center;
 }
 
   .thumbnails {
     max-width: 50%;
   }
+
+  #GitHubLogo {
+    width: 12%;
+  }
+
+  #LinkedInLogo {
+    width: 30%;
+  }
+
+  #profile-pic {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }

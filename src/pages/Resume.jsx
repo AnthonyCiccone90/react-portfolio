@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
-import  ResumeFile  from "../../images/Anthony_Resume.pdf";
+import  ResumeFile from "../../images/resume.pdf"
 
 const Resume = () => {
   return (
@@ -10,8 +10,8 @@ const Resume = () => {
       <h2 class="page-titles">Résumé</h2>
 
       <p className="text">
-        You can download my résumé{" "}
-        <a href={ResumeFile} download>
+        You can view my résumé{" "}
+        <a href={ResumeFile} target="_blank" rel="noopener noreferrer">
           here
         </a>
         {""}.

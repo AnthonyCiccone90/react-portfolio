@@ -25,8 +25,7 @@ const AboutMe = () => {
       and mixologist), music and music education (recording/touring artist and
       teacher) and finance (mortgage loan officer). This is not an exhaustive
       list of the things I have done. I would love the opprotunity to tell you
-      more about myself. If you are interested or have any questions at all for
-      me please reach out. Thanks for visiting!</p>
+      more about myself. If you are interested or have any questions please reach out and I will get back to you promptly. Thanks for visiting!</p>
       <Footer />
     </div>
   );

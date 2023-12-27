@@ -1,5 +1,5 @@
-// Server (Node.js with Express)
 
+require("dotenv").config();
 const express = require('express');
 const nodemailer = require('nodemailer');
 
@@ -17,16 +17,16 @@ app.post('/submit-form', (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'cicconeworldwide@gmail.com', 
-      pass: 'your-app-password', // Replace with the App Password generated for Mail/Other
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASSWORD,
     },
   });
   
   const mailOptions = {
-    from: 'cicconeworldwide@gmail.com', 
+    from: 'process.env.EMAIL_USER', 
     to: email,
     subject: 'New Form Submission',
-    text: `Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`,
+    text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
   
 
