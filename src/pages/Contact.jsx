@@ -39,9 +39,7 @@ const Contact = () => {
     const isFormValid = validateForm();
 
     if (isFormValid) {
-      // Add logic to handle form submission (e.g., send data to a server)
       console.log("Form submitted:", formData);
-      // You can add your logic here to send the form data to a server or perform any other action
     }
   };
 
@@ -65,7 +63,7 @@ const Contact = () => {
   return (
     <div>
       <Navigation /> {/* Include Navigation here */}
-      <h2 class="page-titles">
+      <h2 className="page-titles">
         Contact
       </h2>
       <form onSubmit={handleSubmit}>

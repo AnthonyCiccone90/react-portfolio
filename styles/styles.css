@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Rubik+Maps&family=Ubuntu+Mono&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Mono:wght@100&family=Roboto:ital,wght@0,100;1,100;1,300&family=Rubik+Doodle+Shadow&family=Rubik+Maps&family=Ubuntu+Mono&display=swap');
+
 
 
 #nav-items {
@@ -29,6 +33,7 @@
   margin: 0;
   left: 0;
   text-decoration: none;
+  font-family: 'Rubik Doodle Shadow'
 }
 
 #p-1 {
@@ -36,11 +41,11 @@
 }
 
 #nav-items a:visited {
-  color: white; 
+  color: rgb(0, 0, 0); 
 }
 
 #nav-items a.active {
-  color: orange;
+  color: rgb(70, 10, 224);
 }
 
 #nav-items li {
@@ -49,9 +54,9 @@
 
 
 html {
-  background-image: linear-gradient(rgb(2, 187, 249), rgb(54, 6, 83));
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-image: linear-gradient(rgb(227, 241, 148), rgb(246, 246, 250));
 }
 
 #GitHubLogo {
@@ -78,15 +83,12 @@ html {
 
 .proficiencies {
   list-style: none;
-  color: white;
+  color: black;
 }
 
 .text {
-  color: white;
+  color: black;
   font-size: 22px;
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Ubuntu+Mono&display=swap" rel="stylesheet">
 }
 
 .thumbnails {
@@ -127,8 +129,7 @@ html {
     background-color: transparent;
     margin-top: 0%;
     justify-content: center;
-    flex-wrap:wrap
-    
+    flex-wrap:wrap;
   }
   
   .page-titles {
