@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-import LinkedInLogo from "../../images/linkedin-logo.png";
 import Footer from '../components/Footer';
 import Navigation from "../components/Navigation";
 import CSS from '../../styles/styles.css'

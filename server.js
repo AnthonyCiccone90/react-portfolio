@@ -11,8 +11,6 @@ app.use(express.json());
 app.post('/submit-form', (req, res) => {
   const { name, email, message } = req.body;
 
-  // Validate and sanitize data (implement your own validation logic)
-
   // Send email
   const transporter = nodemailer.createTransport({
     service: 'gmail',
