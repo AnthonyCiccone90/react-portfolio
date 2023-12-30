@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Footer from '../components/Footer';
 import Navigation from "../components/Navigation";
-import CSS from '../../styles/styles.css'
+import CSS from '../../styles/styles.css';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -15,6 +16,8 @@ const Contact = () => {
     email: false,
     message: false,
   });
+
+  const form = useRef();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -31,13 +34,19 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     // Validate form fields
     const isFormValid = validateForm();
 
     if (isFormValid) {
-      console.log("Form submitted:", formData);
+      // Use emailjs for sending email
+      try {
+        await emailjs.sendForm('service_bfz0z7a', 'template_zoocd2j', form.current, 'FDsarT-abCzA9bGxc');
+        console.log("Form submitted:", formData);
+      } catch (error) {
+        console.error("Error submitting form:", error);
+      }
     }
   };
 
@@ -64,7 +73,7 @@ const Contact = () => {
       <h2 className="page-titles">
         Contact
       </h2>
-      <form onSubmit={handleSubmit}>
+      <form ref={form} onSubmit={handleSubmit}>
         <label id="contact-form" htmlFor="name">Name:</label>
         <input
           type="text"
