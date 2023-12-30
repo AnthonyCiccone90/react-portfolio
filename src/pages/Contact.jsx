@@ -51,12 +51,10 @@ const Contact = () => {
   };
 
   const validateForm = () => {
-    // Validate form fields
     const isNameValid = formData.name.trim() !== "";
     const isEmailValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email);
     const isMessageValid = formData.message.trim() !== "";
 
-    // Set touched for all fields
     setTouchedFields({
       name: true,
       email: true,
@@ -73,12 +71,12 @@ const Contact = () => {
       <h2 className="page-titles">
         Contact
       </h2>
-      <form ref={form} onSubmit={handleSubmit}>
-        <label id="contact-form" htmlFor="name">Name:</label>
+      <form className="contact-form"  ref={form} onSubmit={handleSubmit}>
+        <label htmlFor="name">Name:</label>
         <input
           type="text"
-          id="name"
           name="name"
+          className="contact-form"
           value={formData.name}
           onChange={handleChange}
           onBlur={() => handleBlur("name")}
@@ -88,10 +86,10 @@ const Contact = () => {
           <p className="error-message">Name is required</p>
         )}
 
-        <label id="contact-form" htmlFor="email">Email:</label>
+        <label htmlFor="email">Email:</label>
         <input
           type="email"
-          id="email"
+          className="contact-form"
           name="email"
           value={formData.email}
           onChange={handleChange}
@@ -102,9 +100,10 @@ const Contact = () => {
           <p className="error-message">Invalid email address</p>
         )}
 
-        <label id="contact-form" htmlFor="message">Message:</label>
+        <label htmlFor="message">Message:</label>
         <textarea
-          id="message"
+          type="message"
+          className="contact-form"
           name="message"
           value={formData.message}
           onChange={handleChange}

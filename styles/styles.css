@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lora:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lora:wght@700&display=swap");
 
 #nav-items {
   background-color: transparent;
@@ -16,7 +15,7 @@
 
 #nav-items li {
   margin: 0 10px;
-  font-family: 'Lora';
+  font-family: "Lora";
   font-size: 30px;
 }
 
@@ -32,7 +31,7 @@
   margin: 0;
   left: 0;
   text-decoration: none;
-  font-family: 'EB Garamond';
+  font-family: "EB Garamond";
 }
 
 #p-1 {
@@ -40,7 +39,7 @@
 }
 
 #nav-items a:visited {
-  color: green
+  color: green;
 }
 
 #nav-items a.active {
@@ -50,7 +49,7 @@
 html {
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: linear-gradient(.20turn, gray, 50%, rgb(60, 66, 133));
+  background-image: linear-gradient(0.2turn, gray, 50%, rgb(60, 66, 133));
 }
 
 #GitHubLogo {
@@ -83,7 +82,7 @@ html {
 .text {
   color: black;
   font-size: 22px;
-  font-family: 'EB Garamond';
+  font-family: "EB Garamond";
 }
 
 .thumbnails {
@@ -102,18 +101,25 @@ html {
 .titles {
   text-align: center;
   font-size: 60px;
-  font-family: 'EB Garamond';
+  font-family: "EB Garamond";
 }
 
-#contact-form {
-  display: block;
+.contact-form {
+  display: flex;
+  flex-direction: column;  
+  width: 50%;
+}
+
+#submitbtn {
+  width: 20%;
+  margin-left: 10%;
 }
 
 .links {
   text-align: center;
 }
 
-.link-text  {
+.link-text {
   color: black;
 }
 
@@ -134,7 +140,7 @@ html {
   .page-titles {
     margin-top: 12%;
     text-align: center;
-    font-family: 'EB Garamond';
+    font-family: "EB Garamond";
   }
 
   .thumbnails {
@@ -154,5 +160,16 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .contact-form {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #submitbtn {
+    width: 80%;
+    margin: 0 auto;
   }
 }

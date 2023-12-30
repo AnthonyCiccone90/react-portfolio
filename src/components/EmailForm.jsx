@@ -17,7 +17,6 @@ export const EmailForm = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      {/* Your form fields */}
       <input type="submit" value="Send" />
     </form>
   );
