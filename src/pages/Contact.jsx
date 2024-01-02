@@ -17,6 +17,8 @@ const Contact = () => {
     message: false,
   });
 
+  const [confirmationMessage, setConfirmationMessage] = useState(null);
+
   const form = useRef();
 
   const handleChange = (e) => {
@@ -43,7 +45,7 @@ const Contact = () => {
       // Use emailjs for sending email
       try {
         await emailjs.sendForm('service_bfz0z7a', 'template_zoocd2j', form.current, 'FDsarT-abCzA9bGxc');
-        console.log("Form submitted:", formData);
+        setConfirmationMessage("Your email was sent! Thank you for reaching out and I will get back to you soon.");
       } catch (error) {
         console.error("Error submitting form:", error);
       }
@@ -113,9 +115,11 @@ const Contact = () => {
         {touchedFields.message && !formData.message.trim() && (
           <p className="error-message">Message is required</p>
         )}<br></br>
-
         <button id="submitbtn" type="submit">Submit</button>
       </form>
+      {confirmationMessage && (
+        <p className="confirmation-message">{confirmationMessage}</p>
+      )}
       <Footer />
     </div>
   );
