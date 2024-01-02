@@ -34,9 +34,8 @@ const Footer = () => {
         <a href="mailto:cicconeworldwide@gmail.com" className="emoji-link">
           <span className="emojis">📨</span>
         </a>
-        <p id="copyright">&copy; 2023</p>
-        <div class="bottom door"></div>
-      </div>
+        </div>
+      <div class="bottom door"></div>
     </div>
   );
 };
