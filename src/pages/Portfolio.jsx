@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
@@ -77,7 +78,7 @@ const Portfolio = () => {
 
         <div id="ecommercecard">
           <Project
-            title="Ecommerce backend"
+            title="Ecommerce Backend"
             class="titles"
             repoLink="https://github.com/AnthonyCiccone90/ecommerce-backend"
             deployedLink="https://drive.google.com/file/d/1j2Bn5AuWcuArkWzT23UhcYBFUxkJYiks/view"

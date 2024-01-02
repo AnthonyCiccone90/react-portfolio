@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lora:wght@700&display=swap");
 
 #nav-items {
@@ -152,6 +153,119 @@ html {
   justify-content: center;
   align-items: center;
   background-color: orange;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 2s;
+}
+
+#mtgcard:hover,
+#ecommercecard:hover,
+#employeecmscard:hover,
+#logocard:hover,
+#quizcard:hover,
+#readmecard:hover {
+  transform: rotateY(180deg);
+}
+
+#mtgcard .card .card-back,
+#ecommercecard .card .card-back,
+#employeecmscard .card .card-back,
+#logocard .card .card-back,
+#quizcard .card .card-back,
+#readmecard .card .card-back {
+  transform: rotateY(180deg);
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0; 
+  transition: opacity 3s;
+}
+
+#mtgcard:hover .card .card-back,
+#ecommercecard:hover .card .card-back,
+#employeecmscard:hover .card .card-back,
+#logocard:hover .card .card-back,
+#quizcard:hover .card .card-back,
+#readmecard:hover .card .card-back {
+  opacity: 1;
+}
+
+#mtgcard:hover .thumbnails,
+#ecommercecard:hover .thumbnails,
+#employeecmscard:hover .thumbnails,
+#logocard:hover .thumbnails,
+#quizcard:hover .thumbnails,
+#readmecard:hover .thumbnails {
+  display: none;
+}
+
+#mtgcard:hover .titles,
+#ecommercecard:hover .titles,
+#employeecmscard:hover .titles,
+#logocard:hover .titles,
+#quizcard:hover .titles,
+#readmecard:hover .titles {
+  display: none;
+}
+
+
+
+.trapdoor {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  width: 80%;
+  height: 10%;
+  background-color: #333;
+  border-radius: 10px 10px 0 0;
+  transform: translateX(-50%);
+  transition: height 0.5s;
+  overflow: hidden;
+}
+
+.trapdoor:hover {
+  height: 180px; /* Adjust the expanded height as needed */
+}
+
+.top,
+.bottom {
+  position: absolute;
+  width: 100%;
+  height: 5%;
+  background-color: #555;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+}
+
+.trapdoor:hover .top {
+  background-color: #f00; /* Change the color when expanded */
+}
+
+.trapdoor:hover .bottom {
+  background-color: green; /* Change the color when expanded */
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+
+.links {
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.trapdoor:hover .links {
+  opacity: 1;
 }
 
 /* Mobile view */
