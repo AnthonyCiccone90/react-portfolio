@@ -297,9 +297,8 @@ html {
 .links {
   text-align: center;
   position: relative;
-  left: 8%;
   margin-right: 0, auto;
-  opacity: 0;
+  opacity: 1;
 }
 
 .trapdoor:hover .links {
