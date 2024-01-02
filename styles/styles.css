@@ -100,7 +100,7 @@ html {
 
 .titles {
   text-align: center;
-  font-size: 60px;
+  font-size: 20px;
   font-family: "EB Garamond";
 }
 
@@ -125,6 +125,33 @@ html {
 
 #copyright {
   text-align: center;
+}
+
+#cardrows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 33%;
+}
+
+#mtgcard,
+#ecommercecard,
+#employeecmscard,
+#logocard,
+#quizcard,
+#readmecard {
+  width: 33%; 
+  margin-bottom: .5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
 }
 
 /* Mobile view */
