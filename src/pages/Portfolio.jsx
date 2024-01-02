@@ -27,11 +27,10 @@ const Project = ({ title, repoLink, deployedLink, image }) => {
           </a>
         </div>
         <div className="card-back">
-          <div className="links">
-            <p>
+          <div className="cardlinks">
+            <p id="link-text">
               <a
                 href={repoLink}
-                className="link-text"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -40,7 +39,6 @@ const Project = ({ title, repoLink, deployedLink, image }) => {
               |{" "}
               <a
                 href={deployedLink}
-                className="link-text"
                 target="_blank"
                 rel="noopener noreferrer"
               >

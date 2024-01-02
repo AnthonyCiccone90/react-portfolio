@@ -297,8 +297,13 @@ html {
 .links {
   text-align: center;
   position: relative;
+  left: 8%;
   margin-right: 0, auto;
-  opacity: 1;
+  opacity: 0;
+}
+
+.cardlinks {
+  color: black;
 }
 
 .trapdoor:hover .links {
