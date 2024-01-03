@@ -11,21 +11,9 @@ const AboutMe = () => {
       <h2 class="page-titles">Anthony Ciccone </h2>
       <img src={profilePic} alt="profile picture" id="profile-pic"></img>
       <p class="text" id="p-1">
-        Hello! My name is Anthony and I am a full stack web developer.
-        Constantly learning new skills has been the mantra of my life. Learning
-        to code has given me a new prespective on how our world operates.
-        Solving problems with coding, no matter how big or small, gives such a
-        high sense of satisfaction that makes me want to keep going and learn
-        more. The seratonin rush I get when solving problems is unlike anything
-        I've felt in the past.{" "}
+      Greetings! I'm Anthony, a passionate full-stack web developer. Embracing a continuous learning journey has been the guiding principle of my life. Exploring the world of coding has not only expanded my skill set but has also provided me with a fresh perspective on how our interconnected world functions. The sheer joy of problem-solving through coding, irrespective of its scale, brings an unparalleled sense of satisfaction, fueling my desire to delve deeper and absorb more knowledge. The surge of serotonin that accompanies overcoming challenges is a unique experience, unlike anything I've encountered before.{" "}
       </p>
-      <p class="text">My skills and knowledge base go far beyond the coding environment. I have
-      had several other careers and hobbies that had given me a rich diversity
-      of knowledge. Some of these other fields include hospitality (bartender
-      and mixologist), music and music education (recording/touring artist and
-      teacher) and finance (mortgage loan officer). This is not an exhaustive
-      list of the things I have done. I would love the opprotunity to tell you
-      more about myself. If you are interested or have any questions please reach out and I will get back to you promptly. Thanks for visiting!</p>
+      <p class="text">Beyond the realm of coding, my expertise extends into various domains. I've navigated diverse career paths, ranging from hospitality (bartender and mixologist) to music and music education (recording/touring artist and teacher), and even finance (mortgage loan officer). This list merely scratches the surface of my multifaceted journey. I'd be delighted to share more about my experiences with you. If you're curious or have any inquiries, please don't hesitate to reach out, and I'll respond promptly. Thank you for stopping by!</p>
       <Footer />
     </div>
   );

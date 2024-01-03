@@ -320,6 +320,12 @@ html {
   color: white;
 }
 
+#construction {
+  text-align: center;
+  font-size:xx-large;
+  color: whitesmoke;
+}
+
 /* Mobile view */
 @media screen and (max-width: 600px) {
   #nav-items {
@@ -365,4 +371,30 @@ html {
     width: 80%;
     margin: 0 auto;
   }
+}
+
+#construction {
+  font-size: x-large;
+}
+
+.trapdoor {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  height: 5%;
+  width: 75%;
+  background-color: #333;
+  border-radius: 10px 10px 0 0;
+  transition: height 0.5s;
+  overflow: hidden;
+}
+
+.links {
+  justify-content: center;
+  margin-right: 17%;
+}
+
+.top::after,
+.bottom::after {
+  display: none;
 }
