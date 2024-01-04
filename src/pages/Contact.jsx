@@ -69,7 +69,7 @@ const Contact = () => {
 
   return (
     <div>
-      <Navigation /> {/* Include Navigation here */}
+      <Navigation />
       <h2 className="page-titles">
         Contact
       </h2>
