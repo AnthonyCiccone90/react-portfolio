@@ -58,10 +58,6 @@ const Portfolio = () => {
     <div className="container">
       <Navigation />
       <h2 class="page-titles">Highlighted Projects</h2>
-      <p class="text">
-        These are six of my highlighted projects. All images are clickable links
-        that will bring you to the GitHub Repository to view the code.
-      </p>
 
       <div className="row" id="cardrows">
 
