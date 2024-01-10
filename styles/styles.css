@@ -326,6 +326,12 @@ html {
   color: whitesmoke;
 }
 
+#badge {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Mobile view */
 @media screen and (max-width: 600px) {
   #nav-items {
@@ -406,4 +412,10 @@ html {
 .trapdoor:hover .bottom {
   background-color: #E7E71E;
 }
+
+#badge {
+  width: 30%;
+}
+
+
 }
