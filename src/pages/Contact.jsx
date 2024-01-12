@@ -3,6 +3,7 @@ import Footer from '../components/Footer';
 import Navigation from "../components/Navigation";
 import CSS from '../../styles/styles.css';
 import emailjs from '@emailjs/browser';
+import Badge from "../../images/bootcamp-badge.png";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -121,6 +122,13 @@ const Contact = () => {
         <p className="confirmation-message">{confirmationMessage}</p>
       )}
       <Footer />
+      <a
+        href="https://www.credly.com/badges/e3108544-812f-4e59-bbee-bfc6ee835a08"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={Badge} alt="bootcamp badge" id="badge" />
+      </a>
     </div>
   );
 };

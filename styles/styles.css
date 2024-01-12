@@ -122,11 +122,6 @@ html {
   transition: opacity 0.5s;
 }
 
-#copyright {
-  position: fixed;
-  right: .5%;
-  bottom: 0;
-}
 
 #cardrows {
   display: flex;
@@ -326,10 +321,17 @@ html {
   color: whitesmoke;
 }
 
+#copyright {
+  position: fixed;
+  left: .5%;
+  bottom: 0;
+}
+
 #badge {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  position: fixed;
+  right: .5%;
+  bottom: 0;
+  width: 4%;
 }
 
 /* Mobile view */
@@ -413,9 +415,17 @@ html {
   background-color: #E7E71E;
 }
 
-#badge {
-  width: 30%;
+#copyright {
+  position: fixed;
+  left: -.1%;
+  bottom: -3.5%;
 }
 
+#badge {
+  position: fixed;
+  right: .5%;
+  bottom: 0;
+  width: 10%;
+}
 
 }

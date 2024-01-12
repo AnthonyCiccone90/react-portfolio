@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import AboutMe from './components/AboutMe';
+import AboutMe from './pages/AboutMe';
 import PortfolioPage from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';

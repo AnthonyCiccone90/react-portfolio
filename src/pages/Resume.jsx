@@ -17,13 +17,13 @@ const Resume = () => {
         {""}.
       </p>
 
-      {/* <a
+      <a
         href="https://www.credly.com/badges/e3108544-812f-4e59-bbee-bfc6ee835a08"
         target="_blank"
         rel="noopener noreferrer"
       >
         <img src={Badge} alt="bootcamp badge" id="badge" />
-      </a> */}
+      </a>
 
       <p class="text">
         Front-End Proficiencies:
