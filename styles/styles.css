@@ -418,7 +418,7 @@ html {
 #copyright {
   position: fixed;
   left: -.1%;
-  bottom: -3.5%;
+  bottom: 0;
 }
 
 #badge {
