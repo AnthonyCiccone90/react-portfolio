@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
-import ResumeFile from "../../images/resume.pdf";
+import ResumeFile from "../../images/Anthony_Ciccone_Resume.docx.pdf";
 import Badge from "../../images/bootcamp-badge.png";
 
 const Resume = () => {
