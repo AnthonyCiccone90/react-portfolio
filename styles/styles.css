@@ -147,7 +147,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: orange;
+  background-color: turquoise;
   position: relative;
   transform-style: preserve-3d;
   transition: transform 2s;
